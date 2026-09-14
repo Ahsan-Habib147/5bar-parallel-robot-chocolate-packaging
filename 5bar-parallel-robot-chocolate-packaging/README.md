@@ -84,7 +84,6 @@ reachable workspace of both chains, with no singularities encountered throughout
 **Md. Ahsan Habib** — ID 2008032
 Department of Mechatronics Engineering, RUET
 
-Submitted to: Dr. Dip Kumar Saha, Md. Robiul Islam
 
 ## Contact
 
