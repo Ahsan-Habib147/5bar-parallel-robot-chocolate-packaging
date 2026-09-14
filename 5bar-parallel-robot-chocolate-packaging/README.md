@@ -28,12 +28,15 @@ Full derivations, CAD model, end-effector design, and simulation results are in
 ```
 .
 ├── docs/
-│   └── report.pdf         # Full assignment report (design, kinematics, results)
+│   └── report.pdf              # Full assignment report (design, kinematics, results)
 ├── src/
-│   ├── master_5bar.m      # Main script: runs the full 100-chocolate pick-and-place cycle
-│   ├── ForwKin_5bar.m     # Forward kinematics: q -> [P, A, B]
-│   ├── InvKin_5bar.m      # Inverse kinematics: P -> q
-│   └── draw_5bar.m        # Visualisation of a single robot configuration
+│   ├── master_5bar.m           # Main script: runs the full 100-chocolate pick-and-place cycle
+│   ├── ForwKin_5bar.m          # Forward kinematics: q -> [P, A, B]
+│   ├── InvKin_5bar.m           # Inverse kinematics: P -> q
+│   └── draw_5bar.m             # Visualisation of a single robot configuration
+├── simulation/
+│   ├── master_5bar_record.m    # Same as master_5bar.m, plus MP4 recording of the animation
+│   └── simulation.mp4          # Recorded simulation video (full pick-and-place cycle)
 └── README.md
 ```
 
@@ -63,6 +66,13 @@ To compute kinematics directly:
 % Inverse kinematics
 q = InvKin_5bar(L1, L2, L3, L4, O1, O2, P);
 ```
+
+## Simulation Video
+
+A recorded video of the full 100-chocolate pick-and-place cycle is available at
+[`simulation/simulation.mp4`](simulation/simulation.mp4). It was generated with
+[`simulation/master_5bar_record.m`](simulation/master_5bar_record.m), which runs the same
+kinematic loop as `src/master_5bar.m` while capturing each animation frame to video.
 
 ## Results Summary
 
