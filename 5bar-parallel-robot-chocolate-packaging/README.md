@@ -69,9 +69,7 @@ q = InvKin_5bar(L1, L2, L3, L4, O1, O2, P);
 ## Simulation Video
 
 A recorded video of the full 100-chocolate pick-and-place cycle is available at
-[`simulation/simulation.mp4`](simulation/simulation.mp4). It was generated with
-[`simulation/master_5bar_record.m`](simulation/master_5bar_record.m), which runs the same
-kinematic loop as `src/master_5bar.m` while capturing each animation frame to video.
+[`simulation/simulation.mp4`](simulation/simulation.mp4).
 
 ## Results Summary
 
