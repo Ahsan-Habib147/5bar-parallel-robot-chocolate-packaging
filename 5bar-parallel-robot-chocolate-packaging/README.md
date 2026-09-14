@@ -35,7 +35,6 @@ Full derivations, CAD model, end-effector design, and simulation results are in
 │   ├── InvKin_5bar.m           # Inverse kinematics: P -> q
 │   └── draw_5bar.m             # Visualisation of a single robot configuration
 ├── simulation/
-│   ├── master_5bar_record.m    # Same as master_5bar.m, plus MP4 recording of the animation
 │   └── simulation.mp4          # Recorded simulation video (full pick-and-place cycle)
 └── README.md
 ```
